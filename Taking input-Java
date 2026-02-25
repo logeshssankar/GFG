@@ -1,0 +1,27 @@
+import java.util.*;
+
+class GFG {
+    public static void main(String args[]) {
+
+        Scanner scanner = new Scanner(System.in);
+        
+        int a = scanner.nextInt();
+        System.out.println(a);
+        
+        float b = scanner.nextFloat();
+        System.out.println(b);
+        
+        long c = scanner.nextLong();
+        System.out.println(c);
+        
+        byte d = scanner.nextByte();
+        System.out.println(d);
+        
+        scanner.nextLine();
+        
+        String s = scanner.nextLine();
+        System.out.println(s);
+        
+        
+    }
+}
