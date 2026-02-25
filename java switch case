@@ -1,0 +1,25 @@
+class Solution {
+    static double switchCase(int choice, List<Double> arr) {
+        
+        double area = 0.0;
+        
+        switch(choice){
+            
+            case 1:
+                
+                double radius = arr.get(0);
+                area = Math.PI*radius*radius;
+                break;
+                
+            case 2:
+                double length = arr.get(0);
+                double breath = arr.get(1);
+                area = length*breath;
+                break;
+            
+            default:
+                area = 0.0;
+        }
+        return area;
+    }
+}
